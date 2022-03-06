@@ -531,6 +531,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 100%;
 }
 
+.max-w-\[555px\] {
+  max-width: 555px;
+}
+
+.max-w-\[519px\] {
+  max-width: 519px;
+}
+
 .place-items-center {
   place-items: center;
 }
@@ -766,6 +774,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .sm\:p-10 {
     padding: 2.5rem;
+  }
+
+  .sm\:pr-8 {
+    padding-right: 2rem;
+  }
+
+  .sm\:pr-28 {
+    padding-right: 7rem;
   }
 
   .sm\:text-xl-2 {
