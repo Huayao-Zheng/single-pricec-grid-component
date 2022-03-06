@@ -2,7 +2,15 @@ module.exports = {
   content: ['index.html'],
   theme: {
     fontSize: {
-      sm: ['14px', { letterSpacing: '-0.17px', lineHeight: '26px' }],
+      'sm-1': ['14px', { letterSpacing: '-0.17px', lineHeight: '20px' }],
+      'sm-2': ['14px', { letterSpacing: '-0.17px', lineHeight: '26px' }],
+      'sm-3': ['15px', { letterSpacing: '-0.19px', lineHeight: '20px' }],
+      'md-1': ['16px', { letterSpacing: '-0.2px', lineHeight: '18.7px' }],
+      'md-2': ['16px', { letterSpacing: '-0.2px', lineHeight: '26px' }],
+      lg: ['18px', { letterSpacing: '-0.22px', lineHeight: '21.04px' }],
+      'xl-1': ['20px', { letterSpacing: '-0.25px', lineHeight: '23.38px' }],
+      'xl-2': ['24px', { letterSpacing: '-0.3px', lineHeight: '28.06px' }],
+      xxl: ['32pxx', { letterSpacing: '-0.4px', lineHeight: '37.41px' }],
     },
     extend: {
       colors: {

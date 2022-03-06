@@ -468,6 +468,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
 .grid {
   display: grid;
 }
@@ -512,12 +516,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .font-karla {
   font-family: Karla, sans-serif;
-}
-
-.text-sm {
-  font-size: 14px;
-  line-height: 26px;
-  letter-spacing: -0.17px;
 }
 
 .text-Grayish-Blue {
