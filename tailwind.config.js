@@ -10,7 +10,7 @@ module.exports = {
       lg: ['18px', { letterSpacing: '-0.22px', lineHeight: '21.04px' }],
       'xl-1': ['20px', { letterSpacing: '-0.25px', lineHeight: '23.38px' }],
       'xl-2': ['24px', { letterSpacing: '-0.3px', lineHeight: '28.06px' }],
-      xxl: ['32pxx', { letterSpacing: '-0.4px', lineHeight: '37.41px' }],
+      xxl: ['32px', { letterSpacing: '-0.4px', lineHeight: '37.41px' }],
     },
     extend: {
       colors: {
@@ -24,6 +24,7 @@ module.exports = {
       },
       boxShadow: {
         'join-community': '0px 15px 30px rgba(0, 81, 171, 0.148847)',
+        button: '0px 10px 10px rgba(0, 0, 0, 0.0973011)',
       },
     },
   },

@@ -10,23 +10,28 @@
     <link href="/output.css" rel="stylesheet" />
     <title>Frontend Mentor | Single Price Grid Component</title>
   </head>
-  <body class="font-karla h-screen bg-Grayish-Blue grid place-items-center px-8">
-    <main class="">
+  <body class="h-screen bg-Grayish-Blue grid place-items-center px-8">
+    <main class="font-karla text-white">
       <!-- Join our community -->
       <div class="bg-white shadow-join-community rounded-t-md px-6 py-7">
-        <h2 class="mb-6">Join our community</h2>
-        <p class="">30-day, hassle-free money back guarantee</p>
-        <p class="text-sm text-Grayish-Blue">Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers who are serious about honing their skills.</p>
+        <h2 class="font-bold text-xl-1 sm:text-xl-2 text-Cyan mb-6">Join our community</h2>
+        <p class="font-bold text-sm-3 sm:text-lg text-Bright-Yellow mb-4 sm:mb-3">30-day, hassle-free money back guarantee</p>
+        <p class="text-sm-2 sm:text-2 text-Grayish-Blue">
+          Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers who are serious about honing their skills.
+        </p>
       </div>
       <!-- Monthly Subscription -->
-      <div class="">
-        <h2 class="">Monthly Subscription</h2>
-        <div class="">$29 <span class="">per month</span></div>
-        <p class="">Full access for less than $1 a day</p>
-        <button class="" type="button">Sign Up</button>
+      <div class="bg-Cyan p-6">
+        <h2 class="font-bold text-lg mb-[18px]">Monthly Subscription</h2>
+        <div class="font-bold text-xxl flex items-center mb-1">$29 <span class="text-md-2 opacity-50 ml-3">per month</span></div>
+        <p class="text-md-2 mb-6">Full access for less than $1 a day</p>
+        <button class="text-md-1 w-full h-12 bg-Bright-Yellow rounded-md shadow-button" type="button">Sign Up</button>
       </div>
       <!-- Why Us -->
-      <div class="">
+      <div class="relative bg-Cyan p-6">
+        <!-- OverLay -->
+        <div class="absolute inset-0 bg-white opacity-[0.15]"></div>
+        <!-- ------- -->
         <h2 class="">Why Us</h2>
         Tutorials by industry experts <br />
         Peer & expert code review <br />
