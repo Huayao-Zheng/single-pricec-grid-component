@@ -795,4 +795,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     line-height: 21.04px;
     letter-spacing: -0.22px;
   }
+
+  .sm\:text-md-2 {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+  }
 }
