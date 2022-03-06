@@ -11,15 +11,18 @@
     <title>Frontend Mentor | Single Price Grid Component</title>
   </head>
   <body class="h-screen bg-Grayish-Blue grid place-items-center px-8">
-    <main class="font-karla text-white">
+    <!-- Grid Container -->
+    <main class="font-karla text-white sm:max-w-[636px] sm:grid sm:grid-cols-2">
       <!-- Join our community -->
-      <div class="bg-white shadow-join-community rounded-t-md px-6 py-7">
+      <div class="bg-white shadow-join-community rounded-t-md px-6 py-7 sm:col-span-2 sm:p-10">
         <h2 class="font-bold text-xl-1 sm:text-xl-2 text-Cyan mb-6">Join our community</h2>
         <p class="font-bold text-sm-3 sm:text-lg text-Bright-Yellow mb-4 sm:mb-3">30-day, hassle-free money back guarantee</p>
         <p class="text-sm-2 sm:text-2 text-Grayish-Blue">
           Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers who are serious about honing their skills.
         </p>
       </div>
+      <!-- Join our community End -->
+
       <!-- Monthly Subscription -->
       <div class="bg-Cyan p-6">
         <h2 class="font-bold text-lg mb-[18px]">Monthly Subscription</h2>
@@ -27,6 +30,8 @@
         <p class="text-md-2 mb-6">Full access for less than $1 a day</p>
         <button class="text-md-1 w-full h-12 bg-Bright-Yellow rounded-md shadow-button" type="button">Sign Up</button>
       </div>
+      <!-- Monthly Subscription End -->
+
       <!-- Why Us -->
       <div class="relative bg-Cyan p-6">
         <!-- OverLay -->
@@ -43,6 +48,8 @@
           New videos every week
         </p>
       </div>
+      <!-- Why Us End -->
     </main>
+    <!-- Grid Container End -->
   </body>
 </html>
