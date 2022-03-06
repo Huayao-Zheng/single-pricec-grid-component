@@ -625,6 +625,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   letter-spacing: -0.2px;
 }
 
+.text-sm-1 {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.17px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -655,6 +661,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .opacity-\[0\.15\] {
   opacity: 0.15;
+}
+
+.opacity-75 {
+  opacity: 0.75;
 }
 
 .shadow-join-community {
